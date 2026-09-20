@@ -6,7 +6,7 @@ import AuditTrail    from './components/AuditTrail'
 import LoginPage     from './pages/LoginPage'
 import DashboardPage from './pages/DashboardPage'
 
-const API_BASE = '/api'
+const API_BASE = import.meta.env.VITE_API_URL;
 
 function now() {
   return new Date().toLocaleTimeString('en-GB', { hour12: false })
