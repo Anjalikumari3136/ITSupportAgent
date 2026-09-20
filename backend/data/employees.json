@@ -1,0 +1,82 @@
+[
+  {
+    "employeeId": "EMP001",
+    "name": "Aditi Sharma",
+    "email": "aditi.sharma@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "Engineering"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "Vikram Chawla",
+    "email": "vikram.chawla@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "Product"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "Karan Mehta",
+    "email": "karan.mehta@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "CONTRACTOR",
+    "department": "Design"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "Ritu Bhatia",
+    "email": "ritu.bhatia@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "Finance"
+  },
+  {
+    "employeeId": "EMP005",
+    "name": "Sanjay Oberoi",
+    "email": "sanjay.oberoi@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "CONTRACTOR",
+    "department": "IT"
+  },
+  {
+    "employeeId": "EMP006",
+    "name": "Meera Iyer",
+    "email": "meera.iyer@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "HR"
+  },
+  {
+    "employeeId": "EMP007",
+    "name": "Farhan Ali",
+    "email": "farhan.ali@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "Sales"
+  },
+  {
+    "employeeId": "EMP008",
+    "name": "Ananya Reddy",
+    "email": "ananya.reddy@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "Marketing"
+  },
+  {
+    "employeeId": "EMP009",
+    "name": "Rohit Desai",
+    "email": "rohit.desai@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "CONTRACTOR",
+    "department": "Analytics"
+  },
+  {
+    "employeeId": "EMP010",
+    "name": "Kavya Pillai",
+    "email": "kavya.pillai@veridian-corp.example",
+    "password": "password123",
+    "employmentType": "FULL_TIME",
+    "department": "Operations"
+  }
+]

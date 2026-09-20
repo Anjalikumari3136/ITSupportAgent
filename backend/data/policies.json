@@ -1,0 +1,113 @@
+[
+  {
+    "id": "KB-01",
+    "title": "Password Reset",
+    "keywords": ["password", "reset", "locked", "lock", "lockout", "locked out", "failed", "attempts", "account unlock", "login"],
+    "content": "Employees can reset their own password via the self-service portal at any time. If locked out after 5 failed attempts, contact IT to unlock the account manually. No approval required.",
+    "resolution": "If the employee is locked out (5+ failed attempts), IT must manually unlock the account. For standard password resets, direct the employee to the self-service portal. No approval needed.",
+    "requiresEscalation": false,
+    "canSelfServe": true,
+    "selfServeNote": "Use the self-service portal for password resets. If locked out after 5 failed attempts, IT manual unlock is required."
+  },
+  {
+    "id": "KB-02",
+    "title": "VPN Access",
+    "keywords": ["vpn", "virtual private network", "credentials", "expired", "contractor", "remote access", "access request"],
+    "content": "VPN access is granted automatically to all full-time employees. Contractors require manager approval submitted via the access request form. VPN credentials expire every 90 days and must be renewed by the employee.",
+    "resolution": "For expired credentials: employee must renew credentials themselves (90-day expiry cycle). For contractors: manager approval via access request form is required before IT can provision VPN access.",
+    "requiresEscalation": false,
+    "canSelfServe": true,
+    "selfServeNote": "VPN credentials expire every 90 days. Employees renew their own credentials. Contractors require manager approval via access request form."
+  },
+  {
+    "id": "KB-03",
+    "title": "Laptop Replacement",
+    "keywords": ["laptop", "replacement", "dead", "won't turn on", "hardware failure", "broken", "screen", "flickering", "years", "old"],
+    "content": "Laptops are eligible for replacement after 3 years of service, or earlier in case of verified hardware failure. Requests must be raised at least 2 weeks in advance of intended replacement.",
+    "resolution": "Check laptop age and whether a hardware failure is verified. If laptop is 3+ years old, it qualifies for replacement subject to KB-03 and the Asset Management Policy. Requests must be raised at least 2 weeks in advance.",
+    "requiresEscalation": true,
+    "escalateTo": "IT Hardware Team",
+    "canSelfServe": false
+  },
+  {
+    "id": "KB-04",
+    "title": "Software Installation",
+    "keywords": ["software", "install", "installation", "application", "app", "catalog", "non-catalog", "extension", "browser extension", "tool", "security review"],
+    "content": "Standard software listed in the approved catalog can be self-installed. Non-catalog software requires IT Security review. Security review takes 3–5 business days.",
+    "resolution": "If software is in the approved catalog: employee can self-install. If not in catalog (including browser extensions not in catalog): IT Security review required, taking 3–5 business days.",
+    "requiresEscalation": true,
+    "escalateTo": "IT Security",
+    "canSelfServe": false
+  },
+  {
+    "id": "KB-05",
+    "title": "Printer Troubleshooting",
+    "keywords": ["printer", "print", "paper jam", "queue", "spooler", "printing", "print spooler"],
+    "content": "For printer issues: 1. Check the printer queue. 2. Restart the print spooler. 3. If the issue persists after restart, log a ticket with the printer's asset tag.",
+    "resolution": "Step 1: Check printer queue. Step 2: Restart print spooler. Step 3: If issue persists, escalate to IT with printer asset tag.",
+    "requiresEscalation": false,
+    "canSelfServe": true,
+    "selfServeNote": "Check printer queue, restart print spooler. If problem persists, log a ticket with the printer's asset tag."
+  },
+  {
+    "id": "KB-06",
+    "title": "Email Mailbox Quota",
+    "keywords": ["email", "mailbox", "quota", "full", "storage", "send", "receive", "archive", "25gb", "50gb"],
+    "content": "Default mailbox quota is 25GB. Employees nearing quota should archive old mail. Quota increases beyond 25GB require manager approval. Maximum quota is 50GB.",
+    "resolution": "Archive old email to free space. If a quota increase beyond 25GB is needed, manager approval is required. Maximum allowable quota is 50GB.",
+    "requiresEscalation": false,
+    "canSelfServe": true,
+    "selfServeNote": "Archive old email first. Quota increases beyond 25GB require manager approval (max 50GB)."
+  },
+  {
+    "id": "KB-07",
+    "title": "Guest Wi-Fi Access",
+    "keywords": ["wifi", "wi-fi", "guest", "wireless", "internet", "visitor", "network access"],
+    "content": "Guest Wi-Fi credentials are valid for 24 hours. Any employee can generate guest Wi-Fi credentials from the front-desk kiosk. No IT ticket is required.",
+    "resolution": "No IT ticket required. Any employee can generate guest Wi-Fi credentials at the front-desk kiosk. Credentials are valid for 24 hours.",
+    "requiresEscalation": false,
+    "canSelfServe": true,
+    "selfServeNote": "Visit the front-desk kiosk to generate guest Wi-Fi credentials. They are valid for 24 hours. No IT ticket needed."
+  },
+  {
+    "id": "KB-08",
+    "title": "Expense Software Access",
+    "keywords": ["expense", "expense tool", "expense management", "finance tool", "concur", "expense report", "login", "account"],
+    "content": "Access to the expense management tool is granted by Finance, not IT. IT can only assist with login/technical issues once an account already exists.",
+    "resolution": "Access provisioning is handled by Finance, not IT. If the employee already has an account but has a technical/login issue, IT can assist. Otherwise, route to Finance.",
+    "requiresEscalation": false,
+    "routeTo": "Finance",
+    "canSelfServe": false
+  },
+  {
+    "id": "KB-09",
+    "title": "Security Incident Reporting",
+    "keywords": ["phishing", "malware", "virus", "unauthorized access", "suspicious email", "hack", "security", "threat", "scam", "credential", "attack"],
+    "content": "Any suspected phishing email, malware, or unauthorized access attempt must be reported to security@veridian-corp.example immediately. The suspicious email should NOT be forwarded to other employees.",
+    "resolution": "SECURITY INCIDENT: Escalate immediately to security@veridian-corp.example. Instruct the employee NOT to forward the suspicious email to anyone. Create a security ticket.",
+    "requiresEscalation": true,
+    "escalateTo": "Security Team",
+    "escalateEmail": "security@veridian-corp.example",
+    "canSelfServe": false
+  },
+  {
+    "id": "KB-10",
+    "title": "Work-From-Home Equipment",
+    "keywords": ["work from home", "wfh", "remote", "home office", "monitor", "chair", "equipment", "allowance", "remote work"],
+    "content": "Employees working remotely more than 3 days/week are eligible for a one-time home office equipment allowance. Eligible equipment includes chair and monitor. Requires: 1. Manager sign-off, 2. Finance processing. IT only handles the equipment shipping request once approved.",
+    "resolution": "Employee must get (1) Manager sign-off and (2) Finance approval first. IT handles the shipping request only after both approvals are in place.",
+    "requiresEscalation": false,
+    "routeTo": "Manager then Finance",
+    "canSelfServe": false
+  },
+  {
+    "id": "ASSET-MGMT",
+    "title": "Asset Management Policy",
+    "keywords": ["asset", "refresh", "cycle", "4 year", "finance sign-off", "early replacement", "hardware"],
+    "content": "All company-issued hardware, including laptops and monitors, follows a standard 4-year refresh cycle from the date of issue. Early replacement outside this cycle requires: 1. Finance sign-off, 2. IT approval. Last updated Q2 2026. Issued by Finance & Assets.",
+    "resolution": "Hardware replacement follows a 4-year cycle. Any early replacement requires Finance sign-off AND IT approval. When evaluating laptop replacement requests, consider both KB-03 and this policy.",
+    "requiresEscalation": true,
+    "escalateTo": "Finance & IT",
+    "canSelfServe": false
+  }
+]

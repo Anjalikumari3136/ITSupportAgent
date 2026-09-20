@@ -1,0 +1,92 @@
+[
+  {
+    "ticketId": "TK-1042",
+    "employee": "R. Verma",
+    "issue": "VPN credential expired",
+    "status": "Resolved",
+    "statusType": "closed",
+    "category": "VPN Access",
+    "policyRef": "KB-02"
+  },
+  {
+    "ticketId": "TK-1043",
+    "employee": "S. Iyer",
+    "issue": "Laptop replacement (3.2 yrs old)",
+    "status": "Approved — pending fulfillment",
+    "statusType": "active",
+    "category": "Laptop Replacement",
+    "policyRef": "KB-03"
+  },
+  {
+    "ticketId": "TK-1044",
+    "employee": "A. Khan",
+    "issue": "Non-catalog software request",
+    "status": "Pending Security review",
+    "statusType": "active",
+    "category": "Software Installation",
+    "policyRef": "KB-04"
+  },
+  {
+    "ticketId": "TK-1045",
+    "employee": "P. Joshi",
+    "issue": "Mailbox quota increase",
+    "status": "Approved at 35GB",
+    "statusType": "closed",
+    "category": "Email Mailbox Quota",
+    "policyRef": "KB-06"
+  },
+  {
+    "ticketId": "TK-1046",
+    "employee": "M. Das",
+    "issue": "Printer paper jam, floor 2",
+    "status": "Resolved",
+    "statusType": "closed",
+    "category": "Printer Troubleshooting",
+    "policyRef": "KB-05"
+  },
+  {
+    "ticketId": "TK-1047",
+    "employee": "K. Singh",
+    "issue": "Home office equipment request",
+    "status": "Pending Finance",
+    "statusType": "active",
+    "category": "WFH Equipment",
+    "policyRef": "KB-10"
+  },
+  {
+    "ticketId": "TK-1048",
+    "employee": "T. Rao",
+    "issue": "Phishing email reported",
+    "status": "Escalated to Security — under investigation",
+    "statusType": "active",
+    "category": "Security Incident",
+    "policyRef": "KB-09"
+  },
+  {
+    "ticketId": "TK-1049",
+    "employee": "V. Nambiar",
+    "issue": "Password reset",
+    "status": "Resolved",
+    "statusType": "closed",
+    "category": "Password Reset",
+    "policyRef": "KB-01"
+  },
+  {
+    "ticketId": "TK-1050",
+    "employee": "J. Fernandes",
+    "issue": "Admin access request",
+    "status": "Rejected — no business justification provided",
+    "statusType": "closed",
+    "category": "Admin Access",
+    "policyRef": null
+  },
+  {
+    "ticketId": "TK-1051",
+    "employee": "L. Menon",
+    "issue": "Guest Wi-Fi issued",
+    "status": "Resolved",
+    "statusType": "closed",
+    "category": "Guest Wi-Fi",
+    "policyRef": "KB-07"
+  }
+]
