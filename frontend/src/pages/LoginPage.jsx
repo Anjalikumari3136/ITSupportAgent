@@ -44,7 +44,7 @@ export default function LoginPage({ onLogin }) {
       onLogin(data.employee)
 
     } catch (err) {
-      setError('Could not reach the backend. Is the server running on port 3001?')
+      setError('⚠️ Could not reach the backend. Please try again in a moment.')
     } finally {
       setLoading(false)
     }
